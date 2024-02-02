@@ -1,0 +1,70 @@
+root@comp3134Winter2024:~# nmap github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 21:38 UTC
+Nmap scan report for github.com (140.82.113.3)
+Host is up (0.018s latency).
+rDNS record for 140.82.113.3: lb-140-82-113-3-iad.github.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.84 seconds
+
+
+
+============================================================
+
+root@comp3134Winter2024:~# nmap -p 80 github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 21:41 UTC
+Nmap scan report for github.com (140.82.114.3)
+Host is up (0.018s latency).
+rDNS record for 140.82.114.3: lb-140-82-114-3-iad.github.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.10 seconds
+root@comp3134Winter2024:~# 
+
+
+============================================================
+
+root@comp3134Winter2024:~#  nmap -p 80-89 github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 21:42 UTC
+Nmap scan report for github.com (140.82.114.4)
+Host is up (0.018s latency).
+rDNS record for 140.82.114.4: lb-140-82-114-4-iad.github.com
+
+PORT   STATE    SERVICE
+80/tcp open     http
+81/tcp filtered hosts2-ns
+82/tcp filtered xfer
+83/tcp filtered mit-ml-dev
+84/tcp filtered ctf
+85/tcp filtered mit-ml-dev
+86/tcp filtered mfcobol
+87/tcp filtered priv-term-l
+88/tcp filtered kerberos-sec
+89/tcp filtered su-mit-tg
+
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+
+============================================================
+
+root@comp3134Winter2024:~# nmap -F github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 21:43 UTC
+Nmap scan report for github.com (140.82.112.4)
+Host is up (0.018s latency).
+rDNS record for 140.82.112.4: lb-140-82-112-4-iad.github.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.38 seconds
+root@comp3134Winter2024:~# 
+
+
+

@@ -1,0 +1,122 @@
+root@comp3134Winter2024:~# ping google.com
+PING google.com (142.251.41.78) 56(84) bytes of data.
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=1 ttl=120 time=1.58 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=2 ttl=120 time=0.527 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=3 ttl=120 time=0.5364 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=429 ttl=120 time=0.602 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=430 ttl=120 time=0.552 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=431 ttl=120 time=0.601 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=432 ttl=120 time=0.518 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=433 ttl=120 time=0.510 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=434 ttl=120 time=0.616 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=435 ttl=120 time=0.494 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=436 ttl=120 time=0.517 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=437 ttl=120 time=0.654 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=438 ttl=120 time=0.459 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=439 ttl=120 time=0.488 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=440 ttl=120 time=0.514 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=441 ttl=120 time=0.514 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=442 ttl=120 time=0.506 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=443 ttl=120 time=0.560 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=444 ttl=120 time=0.578 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=445 ttl=120 time=0.489 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=446 ttl=120 time=0.594 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=447 ttl=120 time=0.449 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=448 ttl=120 time=0.562 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=449 ttl=120 time=0.482 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=450 ttl=120 time=0.610 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=451 ttl=120 time=0.740 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=452 ttl=120 time=0.707 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=453 ttl=120 time=0.501 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=454 ttl=120 time=0.518 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=455 ttl=120 time=0.490 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=456 ttl=120 time=0.507 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=457 ttl=120 time=0.556 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=458 ttl=120 time=0.495 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=459 ttl=120 time=0.517 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=460 ttl=120 time=0.679 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=461 ttl=120 time=0.500 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=462 ttl=120 time=0.463 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=463 ttl=120 time=0.506 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=464 ttl=120 time=0.536 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=465 ttl=120 time=0.621 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=466 ttl=120 time=0.562 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=467 ttl=120 time=0.517 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=468 ttl=120 time=0.581 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=469 ttl=120 time=0.541 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=470 ttl=120 time=0.454 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=471 ttl=120 time=0.527 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=472 ttl=120 time=0.531 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=473 ttl=120 time=0.689 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=474 ttl=120 time=0.469 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=475 ttl=120 time=0.511 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=476 ttl=120 time=0.514 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=477 ttl=120 time=0.472 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=478 ttl=120 time=0.494 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=479 ttl=120 time=1.85 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=480 ttl=120 time=0.525 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=481 ttl=120 time=0.551 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=482 ttl=120 time=0.493 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=483 ttl=120 time=0.536 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=484 ttl=120 time=0.507 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=485 ttl=120 time=0.638 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=486 ttl=120 time=0.829 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=487 ttl=120 time=0.513 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=488 ttl=120 time=0.538 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=489 ttl=120 time=0.516 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=490 ttl=120 time=0.647 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=491 ttl=120 time=0.575 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=492 ttl=120 time=0.491 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=493 ttl=120 time=0.545 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=494 ttl=120 time=0.457 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=495 ttl=120 time=1.32 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=496 ttl=120 time=0.512 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=497 ttl=120 time=0.552 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=498 ttl=120 time=0.528 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=499 ttl=120 time=0.501 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=500 ttl=120 time=0.495 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=501 ttl=120 time=0.546 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=502 ttl=120 time=0.544 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=503 ttl=120 time=0.538 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=504 ttl=120 time=0.503 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=505 ttl=120 time=0.508 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=506 ttl=120 time=0.508 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=507 ttl=120 time=0.532 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=508 ttl=120 time=0.571 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=509 ttl=120 time=0.544 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=510 ttl=120 time=0.552 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=511 ttl=120 time=0.609 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=512 ttl=120 time=0.552 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=513 ttl=120 time=1.00 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=514 ttl=120 time=0.463 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=515 ttl=120 time=0.551 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=516 ttl=120 time=0.535 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=517 ttl=120 time=0.528 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=518 ttl=120 time=0.517 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=519 ttl=120 time=0.520 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=520 ttl=120 time=0.565 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=521 ttl=120 time=0.531 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=522 ttl=120 time=0.474 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=523 ttl=120 time=0.509 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=524 ttl=120 time=0.639 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=525 ttl=120 time=0.498 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=526 ttl=120 time=0.519 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=527 ttl=120 time=0.485 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=528 ttl=120 time=0.459 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=529 ttl=120 time=0.518 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=530 ttl=120 time=0.430 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=531 ttl=120 time=0.478 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=532 ttl=120 time=0.503 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=533 ttl=120 time=0.506 ms
+^C
+--- google.com ping statistics ---
+533 packets transmitted, 533 received, 0% packet loss, time 532856ms
+rtt min/avg/max/mdev = 0.430/0.594/4.011/0.298 ms
+root@comp3134Winter2024:~# ping google.com -w 3
+PING google.com (142.251.41.78) 56(84) bytes of data.
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=1 ttl=120 time=1.54 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=2 ttl=120 time=0.488 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=3 ttl=120 time=0.530 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 0.488/0.853/1.542/0.487 ms

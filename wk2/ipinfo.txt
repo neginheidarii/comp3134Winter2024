@@ -1,0 +1,53 @@
+Domain Name: netflix.com
+IP address:	Type	Hosted by	   Location
+44.234.232.238	IPv4	Amazon.com, Inc.   United States of America
+Location:	Boardman, Oregon, United States of America
+AS	AS16509
+AS name	Amazon.com, Inc.
+=====================================
+
+Domain Name: github.com
+
+IP address	Type	Hosted by	    Location
+192.30.255.112	IPv4	Hosted by GitHub,   united States of America
+Location:	Seattle, Washington, United States of America
+AS	AS36459
+
+=====================================
+
+Domain Name: apple.com
+
+IP address	Type	Hosted by	     Location
+17.253.144.10	IPv4	Hosted by Apple Inc. united States of America
+
+Location	Cupertino, California, United States of America
+AS	AS714
+AS name	Apple Inc.
+2620:149:af0::10	IPv6	Hosted by Apple Inc. Apple Inc.	United States of America
+
+===================================== 
+
+Domain Name: snapchat.com
+
+
+IP address	Type	Hosted by	        Location
+34.149.46.130	IPv4	Hosted by Google        United States of America
+Google LLC
+Location	Kansas City, Missouri, United States of America
+AS	AS396982
+AS name	Google LLC
+
+===================================== 
+
+Domain Name: facebook.com
+
+
+IP address	Type	Hosted by	             Location
+157.240.22.35	IPv4	Hosted by Facebook, Inc.     United States of America
+Facebook, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.
+
+
+

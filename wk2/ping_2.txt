@@ -1,0 +1,42 @@
+Last login: Fri Feb  2 14:33:25 on ttys001
+negin@Negins-MacBook-Pro ~ % ping google.com
+PING google.com (142.251.33.174): 56 data bytes
+64 bytes from 142.251.33.174: icmp_seq=0 ttl=119 time=3.275 ms
+64 bytes from 142.251.33.174: icmp_seq=1 ttl=119 time=3.034 ms
+64 bytes from 142.251.33.174: icmp_seq=2 ttl=119 time=3.437 ms
+64 bytes from 142.251.33.174: icmp_seq=3 ttl=119 time=3.207 ms
+64 bytes from 142.251.33.174: icmp_seq=4 ttl=119 time=3.216 ms
+64 bytes from 142.251.33.174: icmp_seq=5 ttl=119 time=14.917 ms
+64 bytes from 142.251.33.174: icmp_seq=6 ttl=119 time=3.184 ms
+64 bytes from 142.251.33.174: icmp_seq=7 ttl=119 time=3.240 ms
+64 bytes from 142.251.33.174: icmp_seq=8 ttl=119 time=5.234 ms
+64 bytes from 142.251.33.174: icmp_seq=9 ttl=119 time=9.484 ms
+64 bytes from 142.251.33.174: icmp_seq=10 ttl=119 time=3.286 ms
+64 bytes from 142.251.33.174: icmp_seq=11 ttl=119 time=3.363 ms
+64 bytes from 142.251.33.174: icmp_seq=12 ttl=119 time=6.265 ms
+64 bytes from 142.251.33.174: icmp_seq=13 ttl=119 time=3.299 ms
+64 bytes from 142.251.33.174: icmp_seq=14 ttl=119 time=3.266 ms
+64 bytes from 142.251.33.174: icmp_seq=15 ttl=119 time=3.367 ms
+64 bytes from 142.251.33.174: icmp_seq=16 ttl=119 time=3.196 ms
+^C
+--- google.com ping statistics ---
+17 packets transmitted, 17 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.034/4.604/14.917/3.039 ms
+negin@Negins-MacBook-Pro ~ % ping google.com -w 6
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+negin@Negins-MacBook-Pro ~ % 
