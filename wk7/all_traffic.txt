@@ -1,0 +1,2 @@
+sudo tcpdump -i any -w all_traffic_20240315_1200.pcap
+
