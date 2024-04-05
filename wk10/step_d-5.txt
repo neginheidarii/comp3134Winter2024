@@ -1,0 +1,12 @@
+Observations for the step_d-5.txt file:
+
+Browser Output for '?q=%2e%2e%2f':
+The page displayed an array listing '.', '..', 'hping.txt', 'index.html', and 'wk7'. This indicates a successful directory listing of the current level, demonstrating a traversal one level up.
+
+the Issue:
+The ability to list contents of the directory directly above the script’s indicates a directory traversal vulnerability. This could potentially allow unauthorized access to files and directories, posing a security risk.
+
+Sensitive Information Exposed:
+- 'hping.txt': Presence of this file suggests sensitive command sequences or network testing results could be exposed.
+- 'index.html': Likely the main page of a website, revealing its structure or content.
+- 'wk7': Indicates other exercises or projects, potentially containing more sensitive information or scripts.

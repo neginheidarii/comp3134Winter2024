@@ -1,0 +1,11 @@
+To mitigate the directory traversal vulnerabilities identified in the original script, two main strategies were implemented:
+Preventing Access Above the 'wk7' Directory:
+   Utilized the `basename()` function to extract the basename from the user input (`$_GET['q']`). This ensures that any attempt to navigate upwards in the directory structure (e.g., using `../`) is negated, as `basename()` strips out such navigation, leaving only the final component of the path.
+Ensuring Directory Existence Before Accessing:
+   Applied `file_exists()` and `is_dir()` functions to check if the sanitized path corresponds to an actual, existing directory within the allowed area (`/var/www/html/wk7/`). This prevents the script from attempting to access or list contents of non-existent directories, addressing the concern of accessing arbitrary or sensitive directories.
+
+Bonus Security Measure:
+Blocking Direct File Access:
+   Implemented a check to reject requests containing a dot (`.`), typically indicative of a file name. This precaution helps prevent direct file access, focusing the script's functionality strictly on directory listing and not file manipulation or access.
+
+These changes collectively enhance the script's security by ensuring user input is rigorously validated, thereby mitigating the risks associated with directory traversal and unauthorized file or directory access.

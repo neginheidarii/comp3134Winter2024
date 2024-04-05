@@ -1,0 +1,10 @@
+Observations for the step_d-5.txt file:
+
+Browser Output for '?q=../../':
+The traversal attempt returned entries for '.', '..', and 'html', indicating access two levels up from the script. The presence of 'html' suggests reaching a significant directory.
+
+Issue:
+Reveals a directory traversal vulnerability, allowing unauthorized access to server directories and files.
+
+Sensitive Information Exposed:
+The 'html' directory reveals access to the web server root, potentially disclosing server structure and stored files, aiding further attacks.

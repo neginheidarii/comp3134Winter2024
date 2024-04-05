@@ -1,0 +1,5 @@
+Issue on the Browser:
+When accessing the URL {my droplet IP}/directory_traversal_part1.php?q=hello, the browser displays an error message indicating a 404 Not Found error. This error occurs because the requested file directory_traversal_part1.php with the query parameter q=hello does not exist or is not accessible in the web server's document root directory.
+
+Sensitive Information Disclosure:
+While the error message itself does not directly disclose sensitive information, it does reveal that the server is configured to provide error messages to users. This could potentially aid attackers in understanding the server's configuration and identifying potential vulnerabilities. Additionally, if verbose error messages are enabled, they might provide further insights into the server's setup, which could be exploited by malicious actors.

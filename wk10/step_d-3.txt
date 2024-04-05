@@ -1,0 +1,7 @@
+Observations for the step_d-3.txt file:
+
+Browser Output for '?q=hello':
+Error warnings indicate the "hello" directory doesn't exist, revealing potential vulnerabilities and lack of input validation, posing security risks.
+
+Sensitive Information Exposed:
+The warnings disclose the server's script path (/var/www/html/wk7/directory_traversal_part1.php), aiding attackers in understanding server structure and identifying vulnerabilities.
