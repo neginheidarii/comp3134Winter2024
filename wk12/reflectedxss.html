@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reflected XSS Example</title>
+    <script>
+        function onSubmitForm() {
+            event.preventDefault(); // disable default form behavior
+            var inputText = document.getElementById("inputText").value; // get value of input text
+            document.getElementById("outputDiv").innerHTML = inputText; // display input text in output div
+	    eval(inputText); //execute input text
+        }
+    </script>
+</head>
+<body>
+    <h1>Reflected XSS Example</h1>
+    <form>
+        <input type="text" id="inputText" />
+        <input type="submit" value="Submit" onclick="onSubmitForm()" />
+    </form>
+    <div id="outputDiv"></div>
+</body>
+</html>
