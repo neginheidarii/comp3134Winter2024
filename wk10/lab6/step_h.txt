@@ -1,0 +1,1 @@
+To address the issue of comments being visible in the browser, the `comments_in_source_code_part2.php` script has been updated to utilize PHP comments instead of HTML comments. PHP comments are processed on the server side and are not sent to the browser, thereby ensuring that internal comments or sensitive information contained within comments are not exposed to end-users.

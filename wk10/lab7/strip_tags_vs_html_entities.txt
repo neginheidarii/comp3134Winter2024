@@ -1,0 +1,2 @@
+strip_tags() is a PHP function that removes all HTML and PHP tags from a string. It allows only plain text to be displayed, without any HTML or PHP code.
+htmlentities() is a PHP function that converts all applicable characters to their HTML entity equivalents. It converts HTML and PHP tags into their HTML entity equivalents, allowing them to be displayed as plain text.

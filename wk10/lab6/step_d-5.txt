@@ -1,0 +1,4 @@
+1. Issue: there is no directory name 'hello'
+2. File path: /var/www/html/directory_traversal_part1.php - This reveals the specific file path on the server 
+where the PHP script that produced the error is located. This information may potentially expose 
+the directory structure of my web server and provide insights into the file organization and naming conventions used in my application.
