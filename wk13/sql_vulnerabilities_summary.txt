@@ -1,0 +1,3 @@
+1) Ben's record doesn't return because Ben's status is inactive (active = 0), as expected.
+
+2 & 3) The syntax error occurs due to an invalid syntax caused by the presence of a single quote character (') in the input value "Ben'--". In SQL, single quotes serve as string delimiters, and when the input value contains a single quote, it can disrupt the SQL query structure, leading to a syntax error.
